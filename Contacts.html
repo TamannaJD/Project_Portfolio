@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container-fluid top">
+      <h4 class="portfolio">PORTFOLIO</h4>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 list">
+            <a class="list-items" href="index.html">Home</a>
+            <a class="list-items" href="about.html">About</a>
+            <a class="list-items" href="Resume.html">Resume</a>
+            <!-- <a class="list-items" href="">Services</a> -->
+            <a class="list-items" href="Contacts.html">Contact Us</a>
+
+            <!-- social media -->
+            <a class="list-items" target="_blank" href="https://www.facebook.com"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+            <a class="list-items" target="_blank" href="https://www.instagram.com"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a class="list-items" target="_blank" href="https://www.linkedin.com"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+            <a class="list-items" target="_blank" href="https://www.github.com"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="container-fluid"
+      style="background-color: black; padding-top: 100px; padding-bottom: 30px"
+    >
+      <h2 class="contact">CONTACT ME</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 share">
+            <div class="row">
+              <h2><i class="fa-solid fa-share fa-beat-fade"></i></h2>
+              <h4 style="text-align: center">Social Profiles</h4>
+              <br /><br />
+              <br />
+              <h4>
+                <a class="list-items" href="https://www.facebook.com"
+                target="_blank"><i class="fa-brands fa-facebook-f"></i
+                ></a>
+                <a class="list-items" href="https://www.instagram.com"
+                target="_blank"><i class="fa-brands fa-instagram"></i
+                ></a>
+                <a class="list-items" href="https://www.linkedin.com"
+                target="_blank"><i class="fa-brands fa-linkedin-in"></i
+                ></a>
+                <a class="list-items" href="https://www.github.com"
+                target="_blank"><i class="fa-brands fa-github"></i
+                ></a>
+              </h4>
+            </div>
+
+            <!-- next row -->
+            <div class="row">
+              <div class="col-md-6 share">
+                <h4>
+                  <a class="list-items" href="https://www.Gmail.com" target="_blank"><i class="fa-regular fa-envelope fa-bounce"></i><br /></a>
+                  <h5>Abc@gmail.com</h5>
+                </h4>
+              </div>
+              <div class="col-md-6 share">
+                <h4>
+                    <a class="list-items" href="#" target="_blank"><i class="fa-solid fa-phone-volume fa-shake"></i></a><br />
+                 <h5>987654321</h5>
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col-md-12 form">
+            <!-- form -->
+            <form
+              action="forms/contact.php"
+              method="post"
+              role="form"
+              class="php-email-form"
+            >
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input
+                    type="text"
+                    name="name"
+                    class="form-control"
+                    id="name"
+                    placeholder="Your Name"
+                    required=""
+                  />
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input
+                    type="email"
+                    class="form-control"
+                    name="email"
+                    id="email"
+                    placeholder="Your Email"
+                    required=""
+                  />
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  name="subject"
+                  id="subject"
+                  placeholder="Subject"
+                  required=""
+                />
+              </div>
+              <div class="form-group mt-3">
+                <textarea
+                  class="form-control"
+                  name="message"
+                  rows="6"
+                  placeholder="Message"
+                  required=""
+                ></textarea>
+              </div>
+              <!-- <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div> -->
+              <div class="text-center submit-btn">
+                <button class="btn btn-danger" type="submit">Send Message</button>
+              </div>
+            </form>
+          </div>
+      
+
+
+      </div>
+    </div>
+
+   
+    <!-- footer -->
+
+    <div class="container-fluid footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p>
+              <i class="fa-regular fa-copyright"></i>Copyright Kelly. All Rights
+              Reserved
+            </p>
+            <p>Designed by BootstrapMade</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
